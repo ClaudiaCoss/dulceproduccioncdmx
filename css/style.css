@@ -47,23 +47,15 @@ header div i:hover {
    height: 85px;
 }
 
-header nav ul {
-   list-style: none;
-}
-
-header nav ul li {
-   display: inline-block;
-   margin: 15px 5px 15px 5px;
-
-}
 
 
-header nav ul li a {
+.menu {
    text-decoration: none;
    color: #68877b;
    font-size: 18px;
    font-weight: 500;
    font-style: normal;
+   margin: 15px 5px 15px 5px;
 }
 
 header div {
