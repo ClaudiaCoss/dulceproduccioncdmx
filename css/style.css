@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: "Poppins", sans-serif;
+   background-color: #eaeaea;
+}
+
+/*!----header----*/
+
+
+
+header {
+   background-color: white;
+   padding: 15px;
+
+}
+
+header div i {
+   font-size: 25px;
+   background-color: #68877b;
+   color: #ffffff;
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   border-radius: 5px;
+   padding: 5px;
+
+}
+
+header div i:hover {
+   background-color: #aa5261;
+   color: #ffffff
+}
+
+.logo {
+   width: 185px;
+   height: 85px;
+}
+
+header nav ul {
+   list-style: none;
+}
+
+header nav ul li {
+   display: inline-block;
+   margin: 15px 5px 15px 5px;
+
+}
+
+
+header nav ul li a {
+   text-decoration: none;
+   color: #68877b;
+   font-size: 18px;
+   font-weight: 500;
+   font-style: normal;
+}
+
+header div {
+   list-style: none;
+   border: 5px;
+   justify-content: space-between;
+   align-items: center;
+}
+
+
+header h5 {
+   color: #000000;
+   font-size: 12px;
+   font-weight: 500;
+   font-style: normal;
+   text-align: left;
+
+}
+
+
+
+/*!----main----*/
+.carrusel {
+   padding-bottom: 20px;
+
+}
+.hero {
+   padding: 20px;
+   margin: 15px;
+
+}
+
+
+
+.hero .hero-contenedor div {
+   border: 1px solid none;
+   width: 250px;
+   height: 250px;
+   text-align: center;
+   margin: 20px;
+
+
+}
+
+.hero .hero-contenedor {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+
+
+
+}
+
+.hero div img {
+   border-radius: 50%;
+   height: 200px;
+   width: 200px;
+
+
+}
+
+.hero h2 {
+   color: #aa5261;
+   font-size: 22px;
+   font-weight: 800;
+   font-style: normal;
+}
+
+.hero p {
+   color: #68877b;
+   font-size: 14px;
+   font-weight: 600;
+   font-style: normal;
+
+}
+
+.info {
+   height: 300px;
+   text-align: center;
+   color: white;
+   background-image: url("../img/fiesta.jpg");
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.info h2 {
+   font-weight: 800;
+   font-size: 60px;
+   text-shadow: -1px -1px 25px rgba(0, 0, 0, 1);
+   border: 5px solid white;
+   padding: 5px;
+
+}
+
+.info {
+   font-weight: 400;
+   font-size: 30px;
+   padding: 25px;
+   text-shadow: -1px -1px 25px rgba(0, 0, 0, 1);
+}
+
+
+
+
+
+/*!----footer----*/
+
+footer {
+   padding: 25px;
+   background-color: #9dc1b0;
+   justify-content: space-evenly;
+   display: flex;
+   align-items: center;
+}
+
+footer h2 {
+   font-size: 40px;
+   font-weight: 900;
+}
+
+
+
+footer div i {
+   font-size: 50px;
+   color: #000000;
+   text-align: center;
+   padding: 15px;
+
+}
+
+footer div i:hover {
+   color: #ffffff
+}
