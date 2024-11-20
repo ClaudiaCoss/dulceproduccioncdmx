@@ -90,9 +90,11 @@ header h5 {
    padding-bottom: 20px;
 
 }
+
 .hero {
    padding: 20px;
    margin: 15px;
+
 
 }
 
@@ -175,7 +177,7 @@ header h5 {
 
 footer {
    padding: 25px;
-   background-color: #9dc1b0;
+   background-color: #ffffff;
    justify-content: space-evenly;
    display: flex;
    align-items: center;
@@ -186,16 +188,32 @@ footer h2 {
    font-weight: 900;
 }
 
+footer div h4 {
+   font-size: 20px;
+   font-weight: 900;
+   color: #aa5261;
+   padding: 5px;
+}
+
 
 
 footer div i {
    font-size: 50px;
-   color: #000000;
+   color: #68877b;
    text-align: center;
    padding: 15px;
 
 }
 
 footer div i:hover {
-   color: #ffffff
+   color: #000000
+}
+
+
+
+.suscribete {
+   font-size: 20px;
+   font-weight: 900;
+   color: #aa5261;
+   padding: 5px;
 }
