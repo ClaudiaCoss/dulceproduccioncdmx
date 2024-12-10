@@ -65,6 +65,11 @@ header nav ul li a {
   font-size: 18px;
   font-weight: 500;
   font-style: normal;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+header nav ul li a:hover {
+  line-height: 50px;
 }
 
 .carrusel {
@@ -82,8 +87,7 @@ header nav ul li a {
 }
 
 .caja1:hover {
-  -webkit-transform: scale(0.5);
-  transform: scale(0.5);
+  opacity: 0.3;
 }
 
 .hero .hero-contenedor {
