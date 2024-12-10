@@ -1,0 +1,82 @@
+.carrusel {
+    padding-bottom: 20px;
+
+}
+
+.hero {
+    padding: 20px;
+    margin: 15px;
+
+
+}
+
+
+
+.hero .hero-contenedor div {
+    border: 1px solid none;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin: 20px;
+
+
+}
+
+.hero .hero-contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+
+}
+
+.hero div img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+
+
+}
+
+.hero h2 {
+    color: #aa5261;
+    font-size: 22px;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.hero p {
+    color: #68877b;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+.info {
+    height: 300px;
+    text-align: center;
+    color: white;
+    background-image: url("../img/fiesta.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.info h2 {
+    font-weight: 800;
+    font-size: 60px;
+    text-shadow: -1px -1px 25px rgba(0, 0, 0, 1);
+    border: 5px solid white;
+    padding: 5px;
+
+}
+
+.info {
+    font-weight: 400;
+    font-size: 30px;
+    padding: 25px;
+    text-shadow: -1px -1px 25px rgba(0, 0, 0, 1);
+}

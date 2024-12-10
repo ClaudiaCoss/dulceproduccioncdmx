@@ -1,0 +1,11 @@
+{
+  "name": "proyecto-coder-2024",
+  "version": "1.0.0",
+  "description": "<h2 align=\"center\">Hi 👋! My name is Claudia Coss and I'm a UX Designer.</h2>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
