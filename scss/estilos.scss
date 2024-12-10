@@ -80,7 +80,7 @@ header {
                     -webkit-transition: 1s linear;
                     transition: 1s linear;
 
-                    &:hover{
+                    &:hover {
                         line-height: 50px;
                     }
 
@@ -218,23 +218,23 @@ footer {
 
         }
 
-        i {
-            font-size: 50px;
-            color: #68877b;
-            text-align: center;
-            padding: 15px;
+        a {
 
-            &:hover {
-                color: #000000
+            i {
+                font-size: 50px;
+                color: #68877b;
+                text-align: center;
+                padding: 15px;
+                -webkit-transition: 1s linear;
+                transition: 1s linear;
+
+                &:hover {
+                    color: #000000;
+                    -webkit-transform: scale(.2);
+                    transform: scale(.2);
+
+                }
             }
-
-
         }
-
-
-
     }
-
-
-
 }

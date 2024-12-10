@@ -164,14 +164,18 @@ footer div h4 {
   color: #aa5261;
   padding: 5px;
 }
-footer div i {
+footer div a i {
   font-size: 50px;
   color: #68877b;
   text-align: center;
   padding: 15px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
 }
-footer div i:hover {
+footer div a i:hover {
   color: #000000;
+  -webkit-transform: scale(0.2);
+  transform: scale(0.2);
 }
 
 /*# sourceMappingURL=estilos.css.map */
