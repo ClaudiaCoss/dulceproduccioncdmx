@@ -99,6 +99,16 @@ header {
 
 }
 
+.caja1{
+    
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+  }
+  .caja1:hover{
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+  }
+
 .hero .hero-contenedor {
     display: flex;
     justify-content: space-around;
@@ -166,6 +176,9 @@ header {
     padding: 5px;
 
 }
+
+
+
 
 
 
