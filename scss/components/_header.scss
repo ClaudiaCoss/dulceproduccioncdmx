@@ -2,3 +2,71 @@
     width: 185px;
     height: 85px;
 }
+
+
+nav {
+
+    ul {
+        list-style: none;
+
+        li {
+            display: inline-block;
+            margin: 15px 5px 15px 5px;
+
+            a {
+                text-decoration: none;
+                color: #68877b;
+                font-size: 18px;
+                font-weight: 500;
+                font-style: normal;
+                -webkit-transition: 1s linear;
+                transition: 1s linear;
+
+                &:hover {
+                    line-height: 50px;
+                }
+
+
+            }
+        }
+    }
+
+
+}
+
+header {
+    background-color: white;
+    padding: 15px;
+
+    h5 {
+        color: #000000;
+        font-size: 12px;
+        font-weight: 500;
+        font-style: normal;
+        text-align: left;
+    }
+
+    div {
+        list-style: none;
+        border: 5px;
+        justify-content: space-between;
+        align-items: center;
+
+        i {
+            font-size: 25px;
+            background-color: #68877b;
+            color: #ffffff;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            border-radius: 5px;
+            padding: 5px;
+
+            &:hover {
+                background-color: #aa5261;
+                color: #ffffff
+            }
+
+        }
+    }
+    }

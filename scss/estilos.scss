@@ -19,92 +19,58 @@ body {
     background-color: #eaeaea;
 }
 
-.logo {
-    width: 185px;
-    height: 85px;
-}
-
-header {
-    background-color: white;
-    padding: 15px;
-
-    h5 {
-        color: #000000;
-        font-size: 12px;
-        font-weight: 500;
-        font-style: normal;
-        text-align: left;
-    }
-
-    div {
-        list-style: none;
-        border: 5px;
-        justify-content: space-between;
-        align-items: center;
-
-        i {
-            font-size: 25px;
-            background-color: #68877b;
-            color: #ffffff;
-            width: 50px;
-            height: 50px;
-            text-align: center;
-            border-radius: 5px;
-            padding: 5px;
-
-            &:hover {
-                background-color: #aa5261;
-                color: #ffffff
-            }
-
-        }
-    }
-
-    nav {
 
 
+// inicio
 
-        ul {
-            list-style: none;
-
-            li {
-                display: inline-block;
-                margin: 15px 5px 15px 5px;
-
-                a {
-                    text-decoration: none;
-                    color: #68877b;
-                    font-size: 18px;
-                    font-weight: 500;
-                    font-style: normal;
-                    -webkit-transition: 1s linear;
-                    transition: 1s linear;
-
-                    &:hover {
-                        line-height: 50px;
-                    }
-
-
-                }
-            }
-        }
-
-
-    }
-
-
-
-}
-
-
-.carrusel {
-    padding-bottom: 20px;
-
-}
 
 .hero {
     padding: 20px;
     margin: 15px;
+
+    h2 {
+        color: #aa5261;
+        font-size: 25px;
+        font-weight: 800;
+        font-style: normal;
+
+    }
+
+    p {
+
+        color: #68877b;
+        font-size: 16px;
+        font-weight: 600;
+        font-style: normal;
+
+    }
+
+    .hero-contenedor {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+
+        div {
+            border: 1px solid none;
+            width: 250px;
+            height: 250px;
+            text-align: center;
+            margin: 20px;
+
+            img {
+
+                border-radius: 50%;
+                height: 200px;
+                width: 200px;
+
+            }
+
+
+
+        }
+
+    }
 
 
 }
@@ -114,59 +80,13 @@ header {
     -webkit-transition: 1s linear;
     transition: 1s linear;
 
-
-
-
-}
-
-.caja1:hover {
-    opacity: 0.3;
-}
-
-.hero .hero-contenedor {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-
-
-
-}
-
-.hero .hero-contenedor div {
-    border: 1px solid none;
-    width: 250px;
-    height: 250px;
-    text-align: center;
-    margin: 20px;
-
-
+    &:hover {
+        opacity: 0.3;
+    }
 }
 
 
 
-.hero div img {
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-
-
-}
-
-.hero h2 {
-    color: #aa5261;
-    font-size: 22px;
-    font-weight: 800;
-    font-style: normal;
-}
-
-.hero p {
-    color: #68877b;
-    font-size: 14px;
-    font-weight: 600;
-    font-style: normal;
-
-}
 
 .info {
     height: 300px;
@@ -180,61 +100,51 @@ header {
     font-size: 30px;
     padding: 25px;
     text-shadow: -1px -1px 25px rgba(0, 0, 0, 1);
-}
-
-.info h2 {
-    font-weight: 800;
-    font-size: 60px;
-    text-shadow: -1px -1px 25px rgba(0, 0, 0, 1);
-    border: 5px solid white;
-    padding: 5px;
-
-}
-
-
-
-
-
-
-footer {
-    padding: 25px;
-    background-color: #ffffff;
-    justify-content: space-evenly;
-    display: flex;
-    align-items: center;
+    height: 500px;
 
     h2 {
-        font-size: 40px;
-        font-weight: 900;
+        font-weight: 800;
+        font-size: 60px;
+        text-shadow: -1px -1px 25px rgba(0, 0, 0, 1);
+        border: 5px solid white;
+        padding: 5px;
 
-    }
-
-    div {
-        h4 {
-            font-size: 20px;
-            font-weight: 900;
-            color: #aa5261;
-            padding: 5px;
-
-        }
-
-        a {
-
-            i {
-                font-size: 50px;
-                color: #68877b;
-                text-align: center;
-                padding: 15px;
-                -webkit-transition: 1s linear;
-                transition: 1s linear;
-
-                &:hover {
-                    color: #000000;
-                    -webkit-transform: scale(.2);
-                    transform: scale(.2);
-
-                }
-            }
-        }
     }
 }
+
+
+
+// decoraciones
+.carrusel {
+    padding-bottom: 20px;
+
+}
+
+
+// regalos
+
+.regalos {
+    padding: 15px;
+    font-style: normal;
+    text-align: center;
+
+    h2 {
+        color: #aa5261;
+        font-size: 28px;
+        font-weight: 800;
+        font-style: normal;
+
+        p {
+            color: #000000;
+            font-size: 22px;
+            font-weight: 200;
+            font-style: normal;
+
+
+        }
+
+    }
+}
+
+
+// extras

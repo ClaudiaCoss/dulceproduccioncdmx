@@ -4,3 +4,46 @@
     color: #aa5261;
     padding: 5px;
 }
+
+footer {
+    padding: 25px;
+    background-color: #ffffff;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+
+    h2 {
+        font-size: 40px;
+        font-weight: 900;
+
+    }
+
+    div {
+        h4 {
+            font-size: 20px;
+            font-weight: 900;
+            color: #aa5261;
+            padding: 35px;
+
+        }
+
+        a {
+
+            i {
+                font-size: 50px;
+                color: #68877b;
+                text-align: center;
+                padding: 15px;
+                -webkit-transition: 1s linear;
+                transition: 1s linear;
+
+                &:hover {
+                    color: #000000;
+                    -webkit-transform: scale(.2);
+                    transform: scale(.2);
+
+                }
+            }
+        }
+    }
+}
