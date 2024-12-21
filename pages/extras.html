@@ -25,6 +25,7 @@
 
     <title>Dulce Producción | Decoraciones y más...</title>
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <title>Dulce Producción</title>
 </head>
@@ -84,28 +85,31 @@
     </header>
     <main><!---Contenido Principal-->
 
-        <div class="card bg-dark text-white">
-            <img src="../img/galletas.jpg" class="card-img" alt="...">
-            <div class="card-img-overlay">
-                <h1 class="reposteria">Repostería</h1>
-                <p class="">Galletas, pasteles, muffins y mucho más para complementar tu fiesta.</p>
+        <section class="hero">
+            <h2>Comparte tus datos</h2>
+            <p>Cuéntanos tu idea y te hacemos llegar las mejores opciones para hacer tu fiesta realidad. </p>
+            <p>Disponible en CDMX</p>
+        </section>
 
+
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Corre electrónico</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Por este medio te vamos a responder.</div>
             </div>
-        </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Usar mi correo electrónico para mandarme publicidad de la página.</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
 
-        <!-- <section class="hero">
-                <h2>Repostería</h2>
-                <p>Galletas, pasteles, muffins y mucho más para complementar tu fiesta.</p>
-                <img src="../img/galletas.jpg" class="img-fluid" alt="...">
-            </section>
-            <section>
-
-                <div class=""> <img src="../img/galletas.jpg" class="img-fluid" alt="...">
-
-                    <h2>Repostería</h2>
-                    <p>Galletas, pasteles, muffins y mucho más para complementar tu fiesta.</p>
-
-            </section> -->
+       
 
     </main>
     <footer>
